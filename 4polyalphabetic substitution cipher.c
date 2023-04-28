@@ -76,3 +76,4 @@ void encrypt_text(char plaintext[], char key[], int keylen)
     ciphertext[len] = '\0';
     strcpy(plaintext, ciphertext);
 }
+
